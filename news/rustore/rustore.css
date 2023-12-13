@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.title{
+  font-size: 45px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 700px;
+  background-color: #f2f2f2;
+  background-image: url('../img2/fon5.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 75px;
+  height: 75px;
+}
+
+.logo-container h1 {
+  margin-left: 10px; 
+}
+
+/* кнопка */
+.button-start {
+	font-weight: 900;
+	text-transform: uppercase;
+	background-color: #75a6e6;
+	border-radius: 160px;
+	outline: none;
+	cursor: pointer;
+  border: 3px solid rgb(12, 37, 56);
+  height: 50px;
+  width: 150px;
+  justify-content: center;
+  font-size: 16px;
+  position: absolute; 
+  left: 15px; 
+  transform: none; 
+  text-decoration: none; 
+  color: rgb(1, 2, 70);
+}
+/* конец кнопки */
+
+/* текст */
+.news1{
+  text-align: justify;
+  margin: 0 auto;
+  width: 1350px;
+  font-size: 25px;
+}
+
+.hh{
+  text-align: justify;
+  margin: 20px auto;
+  width: 1350px;
+}
+
+.mini2 {
+  text-align: justify;
+  margin: 0 auto;
+  width: 1400px;
+  border: 5px solid #75a6e6;
+  border-radius: 30px;
+  height: 180px;
+  font-size: 20px;
+}
+
+i {
+  height: 135px;
+  width: 1330px;
+  font-size: 25px;
+}
+.mini{
+  text-align: justify;
+  margin: 0 auto;
+  width: 1350px;
+  color: #0000006e;
+  margin-top: -17px;
+}
+
+b {
+  text-align: justify;
+  margin: 0 auto;
+  width: 1350px;
+  font-size: 28px;
+}
+/* конец текста */
+
+/* картинка */
+.rustore img {
+  width: 1000px;
+  height: 275px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+/* конец картинки */
+
+/* футер */
+footer{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  }
+/* конец футера */

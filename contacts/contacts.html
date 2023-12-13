@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoTrends</title>
+    <link rel="stylesheet" href="contacts.css">
+    <script src="contacts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="../img/logotype.png" alt="логотип">
+                <h1 class="title">
+                    InfoTrends  
+                </h1>
+            </div>
+        </div>
+    </header>
+<main>
+    <ul>
+        <li>
+            <a href="../stati/stati.html" data-text="Статьи">
+                Статьи
+            </a>
+        </li>
+        <li>
+            <a href="../news/news.html" data-text="Новости">
+                Новости
+            </a>
+        </li>
+        <li>
+            <a href="../InfoTrends.html" data-text="Главная">
+                Главная
+            </a>
+        </li>
+        <li>
+            <a href="../contacts/contacts.html" data-text="Контакты">
+                Контакты
+            </a>
+        </li>
+        <li>
+            <a href="../company/company.html" data-text=" компании">
+                О компании
+            </a>
+        </li>
+    </ul>
+</main>
+
+<div class="text2-3ifmame">
+    <p class="text2">
+        Адрес: Проспект Андропова, 18к3;
+            <br>
+        Email: InfoTrends@gmail.com;
+            <br>
+        Телефон: +7(965)-234-61-45.
+    </p>
+        <iframe 
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A0d6d41f807c9504e5cdca3ec0c5ea13e2856a948c103c54e377b18d55a5881c0&amp;source=constructor" 
+            width="500" 
+            height="400" 
+            frameborder="0">
+        </iframe>
+    <p class="text3">
+        Понедельник: 9:00-19:00;
+            <br>
+        Вторник-Четверг: 7:00-18:00;
+            <br>
+        Пятница: 8:00-17:00;
+            <br>
+        Суббота-Воскресенье: Выходной.
+    </p>
+</div>
+    <p class="text1">
+        InfoTrends - ваш источник свежих новостей и аналитики о мире IT, последние технологические тенденции и события в 
+        области разработки программного обеспечения, искусственного интеллекта, кибербезопасности и мобильных устройств. 
+        Наша цель - информировать и вдохновлять нашу аудиторию, рассказывая, какие технологии определяют будущее.
+    </p>
+        <form id="myForm">
+            <label for="name">
+                Введите Ваше имя:
+            </label>
+                <br>
+                    <input type="text" id="name" name="name" required>
+                        <br>
+            <label for="email">
+                Введите Ваш Email:
+            </label>
+                <br>
+                    <input type="email" id="email" name="email" required>
+                        <br>
+                        <br>
+            <label for="name">
+                Напишите Ваш отзыв:
+            </label>
+                <br>
+                <textarea id="review" name="review" rows="5" cols="30">
+                </textarea>
+                    <br>
+            <div class="submit1">
+                <input type="submit" value="Отправить">
+            </div>
+        </form>
+        <div id="successMessage" class="message">
+        Спасибо за Ваш отзыв!
+        </div>
+<footer> 
+    &copy; 2023 Новостной сайт. Все права защищены. 
+</footer> 
+</body>
+</html>
