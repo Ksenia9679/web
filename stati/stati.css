@@ -41,6 +41,11 @@
   }
   
   /* меню */
+
+a.active1{
+  color: #b96301be;
+}
+
   main{
     padding-top: 20px;
   }
