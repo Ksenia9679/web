@@ -40,6 +40,11 @@ body {
 }
 
 /* меню */
+
+a.active1{
+  color: #006dfcb6 ;
+}
+
 ul  {
   position: relative;
   font-size: 14px;
