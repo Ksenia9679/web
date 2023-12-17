@@ -41,6 +41,10 @@ body {
 
 /* меню */
 
+a.active1{
+color: #f84d4dad ;
+}
+
 main {
   display: flex;
   justify-content: center;
